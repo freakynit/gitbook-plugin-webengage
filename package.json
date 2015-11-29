@@ -1,0 +1,36 @@
+{
+  "name": "gitbook-plugin-webengage",
+  "description": "WebEngage Integration For Your GitBook",
+  "main": "index.js",
+  "version": "0.0.1",
+  "engines": {
+      "gitbook": ">1.x.x"
+  },
+  "homepage": "https://github.com/freakynit/gitbook-plugin-webengage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freakynit/gitbook-plugin-webengage.git"
+  },
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/freakynit/gitbook-plugin-webengage/issues"
+  },
+  "gitbook": {
+    "properties": {
+      "licenseCode": {
+        "type": "string",
+        "title": "WebEngage License Code",
+        "required": true
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webengage",
+    "gitbook",
+    "engagement"
+  ],
+  "author": "Nitin Bansal <nitin@webklipper.com> (http://freakynit.com)"
+}
